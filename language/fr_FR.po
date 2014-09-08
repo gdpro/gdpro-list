@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZendSkeletonApplication\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-08 04:35+0100\n"
+"PO-Revision-Date: 2014-09-08 06:27+0100\n"
+"Last-Translator: Gary Gitton <info@gary.pro>\n"
+"Language-Team: Gdpro <info@gary.pro>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "Created"
+msgstr "Créée"
+
+msgid "Waiting for moderation"
+msgstr "En attente de modération"
+
+msgid "Published"
+msgstr "Publiée"
+
+msgid "Waiting for modification"
+msgstr "En attente de modification"
+
+msgid "Administrator"
+msgstr "Administrateur"
+
+msgid "Professional"
+msgstr "Professionnel"
+
+msgid "Individual"
+msgstr "Particulier"
+
+msgid "Mr"
+msgstr "M."
+
+msgid "Master"
+msgstr "Maître"
+
+msgid "Ms"
+msgstr "Mme"
+
+msgid "Miss"
+msgstr "Mlle"
+
+msgid "Mrs"
+msgstr "Mme"
+
+msgid "Sent"
+msgstr "Envoyé"
+
+msgid "Accepted"
+msgstr "Accepté"
+
+msgid "Rejected"
+msgstr "Refusé"
+
+msgid "taxable HP"
+msgstr "CV"
