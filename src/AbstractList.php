@@ -35,4 +35,17 @@ class AbstractList implements ListInterface
 
         return $translatedList;
     }
+
+    /**
+     * Get One Element By Id
+     * @param $id
+     * @return string
+     */
+    public function getElementById($id)
+    {
+        $element = $this->list[$id];
+        $translatedElement = $this->translator->translate($element, 'GdproList');
+
+        return $translatedElement;
+    }
 }

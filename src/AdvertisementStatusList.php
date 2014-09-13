@@ -8,7 +8,7 @@ class AdvertisementStatusList extends AbstractList
     const PUBLISHED = 2;
     const WAITING_FOR_MODIFICATION = 3;
 
-    private $list = [
+    protected $list = [
         self::CREATED => 'Created',
         self::WAITING_FOR_MODERATION => 'Waiting for moderation',
         self::PUBLISHED => 'Published',

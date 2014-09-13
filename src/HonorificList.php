@@ -32,7 +32,7 @@ class HonorificList extends AbstractList
      * List of honorific
      * @var array
      */
-    private $list = [
+    protected $list = [
         self::MR => 'Mr',
         self::MASTER => 'Master',
         self::MS => 'Ms',
@@ -46,7 +46,7 @@ class HonorificList extends AbstractList
         $list = $this->list;
 
         if($locale == 'fr_FR') {
-            unset($list[self::MS]);
+            unset($list[self::MS], $list[self::MASTER]);
         }
 
         $translatedList = [];

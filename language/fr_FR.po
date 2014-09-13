@@ -62,3 +62,34 @@ msgstr "Refusé"
 
 msgid "taxable HP"
 msgstr "CV"
+
+msgid "New"
+msgstr "Neuf"
+
+msgid "As new"
+msgstr "Comme neuf"
+
+msgid "Excellent state"
+msgstr "Excellent état"
+
+msgid "Very good state"
+msgstr "Très bon état"
+
+msgid "Good state"
+msgstr "Bon état"
+
+msgid "Medium state"
+msgstr "Etat moyen"
+
+msgid "Bad state"
+msgstr "Mauvais état"
+
+msgid "Very bad state"
+msgstr "Très mauvais état"
+
+msgid "Can\'t move"
+msgstr "Ne peut plus bouger"
+
+msgid "Good for scrap"
+msgstr "Bonne pour la casse"
+
