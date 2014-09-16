@@ -3,16 +3,16 @@ namespace GdproList;
 
 class VehicleStateList extends AbstractList
 {
-    const IS_NEW = 0;
-    const AS_NEW = 1;
-    const EXCELLENT_STATE = 2;
-    const VERY_GOOD_STATE = 3;
-    const GOOD_STATE = 4;
-    const MEDIUM_STATE = 5;
-    const BAD_STATE = 6;
-    const VERY_BAD_STATE = 7;
-    const CANT_MOVE = 8;
-    const GOOD_FOR_SCRAP = 9;
+    const IS_NEW = 1;
+    const AS_NEW = 2;
+    const EXCELLENT_STATE = 3;
+    const VERY_GOOD_STATE = 4;
+    const GOOD_STATE = 5;
+    const MEDIUM_STATE = 6;
+    const BAD_STATE = 7;
+    const VERY_BAD_STATE = 8;
+    const CANT_MOVE = 9;
+    const GOOD_FOR_SCRAP = 10;
 
     protected $list = [
         self::IS_NEW => 'New',

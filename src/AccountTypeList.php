@@ -3,9 +3,9 @@ namespace GdproList;
 
 class AccountTypeList extends AbstractList
 {
-    const ADMINISTRATOR = 0;
-    const PROFESSIONAL = 1;
-    const INDIVIDUAL = 2;
+    const ADMINISTRATOR = 1;
+    const PROFESSIONAL = 2;
+    const INDIVIDUAL = 3;
 
     protected $list = [
         self::ADMINISTRATOR => 'Administrator',

@@ -3,12 +3,12 @@ namespace GdproList;
 
 class QuotationStatusList extends AbstractList
 {
-    const CREATED = 0;
-    const WAITING_FOR_MODERATION = 1;
-    const WAITING_FOR_MODIFICATION = 2;
-    const SENT = 3;
-    const ACCEPTED = 4;
-    const REJECTED = 5;
+    const CREATED = 1;
+    const WAITING_FOR_MODERATION = 2;
+    const WAITING_FOR_MODIFICATION = 3;
+    const SENT = 4;
+    const ACCEPTED = 5;
+    const REJECTED = 6;
 
     protected $list = [
         self::CREATED => 'Created',

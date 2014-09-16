@@ -6,27 +6,27 @@ class HonorificList extends AbstractList
     /**
      * (Mister) for men, regardless of marital status.
      */
-    const MR = 0;
+    const MR = 1;
 
     /**
      * for young men and boys, especially in the UK.
      */
-    const MASTER = 1;
+    const MASTER = 2;
 
     /**
      * for women, regardless of marital status.
      */
-    const MS = 2;
+    const MS = 3;
 
     /**
      * usually for unmarried women, though also used by married female entertainers (e.g. actresses).
      */
-    const MISS = 3;
+    const MISS = 4;
 
     /**
      * for married women.
      */
-    const MRS = 4;
+    const MRS = 5;
 
     /**
      * List of honorific

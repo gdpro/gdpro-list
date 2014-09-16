@@ -43,6 +43,10 @@ class AbstractList implements ListInterface
      */
     public function getElementById($id)
     {
+        if(!isset($this->list[$id])) {
+            return null;
+        }
+
         $element = $this->list[$id];
         $translatedElement = $this->translator->translate($element, 'GdproList');
 

@@ -35,6 +35,10 @@ class TaxableHorsePowerList extends AbstractList
 
     public function getElementById($id)
     {
+        if(!isset($this->list[$id])) {
+            return null;
+        }
+
         $element = $this->list[$id];
         $translatedSuffix = $this->translator->translate('taxable HP', 'GdproList');
 

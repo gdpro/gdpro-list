@@ -3,8 +3,8 @@ namespace GdproList;
 
 class GenderList extends AbstractList
 {
-    const WOMAN = 0;
     const MAN = 1;
+    const WOMAN = 2;
 
     protected $list = [
         self::WOMAN => 'Woman',
