@@ -9,6 +9,8 @@ class QuotationStatusList extends AbstractList
     const SENT = 4;
     const ACCEPTED = 5;
     const REJECTED = 6;
+    const PUBLISHED = 7;
+
 
     protected $list = [
         self::CREATED => 'Created',
@@ -17,5 +19,6 @@ class QuotationStatusList extends AbstractList
         self::SENT => 'Sent',
         self::ACCEPTED => 'Accepted',
         self::REJECTED => 'Rejected',
+        self::PUBLISHED => 'Published'
     ];
 }
