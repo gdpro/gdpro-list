@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-08 04:35+0100\n"
-"PO-Revision-Date: 2014-09-22 04:51+0100\n"
+"PO-Revision-Date: 2014-09-30 00:55+0100\n"
 "Last-Translator: Gary Gitton <info@gary.pro>\n"
 "Language-Team: Gdpro <info@gary.pro>\n"
 "Language: fr_FR\n"
@@ -60,9 +60,6 @@ msgstr "Accepté"
 msgid "Rejected"
 msgstr "Refusé"
 
-msgid "taxable HP"
-msgstr "CV"
-
 msgid "New"
 msgstr "Neuf"
 
@@ -87,7 +84,7 @@ msgstr "Mauvais état"
 msgid "Very bad state"
 msgstr "Très mauvais état"
 
-msgid "Can\'t move"
+msgid "Can't move"
 msgstr "Ne peut plus bouger"
 
 msgid "Good for scrap"
@@ -95,3 +92,7 @@ msgstr "Bonne pour la casse"
 
 msgid "Validated"
 msgstr "Validé"
+
+msgid "taxable HP"
+msgstr "CV Fiscaux"
+
