@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-08 04:35+0100\n"
-"PO-Revision-Date: 2014-09-30 00:55+0100\n"
+"PO-Revision-Date: 2014-10-06 20:44+0100\n"
 "Last-Translator: Gary Gitton <info@gary.pro>\n"
 "Language-Team: Gdpro <info@gary.pro>\n"
 "Language: fr_FR\n"
@@ -96,3 +96,20 @@ msgstr "Validé"
 msgid "taxable HP"
 msgstr "CV Fiscaux"
 
+msgid "Public"
+msgstr "Public"
+
+msgid "Protected"
+msgstr "Protégé"
+
+msgid "Host invitation"
+msgstr "Invitation organisateur"
+
+msgid "Open invitation"
+msgstr "Invitation ouverte"
+
+msgid "Male"
+msgstr "Homme"
+
+msgid "Female"
+msgstr "Femme"
