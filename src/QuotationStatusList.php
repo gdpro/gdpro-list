@@ -11,7 +11,6 @@ class QuotationStatusList extends AbstractList
     const REJECTED = 6;
     const PUBLISHED = 7;
 
-
     protected $list = [
         self::CREATED => 'Created',
         self::WAITING_FOR_MODERATION => 'Waiting for moderation',
