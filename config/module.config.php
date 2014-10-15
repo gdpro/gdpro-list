@@ -21,6 +21,7 @@ return [
             'gdpro_list.quotation_status' => 'GdproList\Factory\QuotationStatusListFactory',
             'gdpro_list.taxable_horse_power' => 'GdproList\Factory\TaxableHorsePowerListFactory',
             'gdpro_list.vehicle_state' => 'GdproList\Factory\VehicleStateListFactory',
+            'gdpro_list.event_privacy_status' => 'GdproList\Factory\EventPrivacyStatusListFactory',
         ]
     ],
 

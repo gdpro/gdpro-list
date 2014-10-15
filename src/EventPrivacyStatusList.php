@@ -9,7 +9,7 @@ class EventPrivacyStatusList extends AbstractList
     const OPEN_INVITATION = 3;
 
     /**
-     * List of event pr
+     * List of event privacy status list
      * @var array
      */
     private $eventPrivacyStatusList = [
@@ -18,15 +18,4 @@ class EventPrivacyStatusList extends AbstractList
         self::HOST_INVITATION => 'Host invitation',
         self::OPEN_INVITATION => 'Open invitation',
     ];
-
-
-
-    public function getAllEventPrivacyStatuses($langage = 'en')
-    {
-        if($langage == 'fr') {
-            return $this->eventPrivacyStatusListFr;
-        }
-
-        return $this->eventPrivacyStatusList;
-    }
 }
