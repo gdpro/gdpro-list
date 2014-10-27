@@ -1,6 +1,11 @@
 <?php
 namespace GdproList;
 
+/**
+ * Class AccountTypeList
+ * @package GdproList
+ * @deprecated
+ */
 class AccountTypeList extends AbstractList
 {
     const ADMINISTRATOR = 1;

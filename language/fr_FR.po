@@ -113,3 +113,27 @@ msgstr "Homme"
 
 msgid "Female"
 msgstr "Femme"
+
+msgid "Guest"
+msgstr "Invité"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Individual"
+msgstr "Particulier"
+
+msgid "Professional"
+msgstr "Professionnel"
+
+msgid "Not paid"
+msgstr "Non payé"
+
+msgid "Paid"
+msgstr "Payé"
+
+msgid "Waiting for deposit"
+msgstr "En attente de l'accompte"
+
+msgid "Deposit paid"
+msgstr "Accompte payé"

@@ -11,6 +11,7 @@ return [
             'gdpro.list.quotation_status' => 'gdpro_list.quotation_status',
             'gdpro.list.taxable_horse_power' => 'gdpro_list.taxable_horse_power',
             'gdpro.list.vehicle_state' => 'gdpro_list.vehicle_state',
+            'gdpro.list.user_role' => 'gdpro_list.user_role'
         ],
 
         'factories' => [
@@ -22,6 +23,7 @@ return [
             'gdpro_list.taxable_horse_power' => 'GdproList\Factory\TaxableHorsePowerListFactory',
             'gdpro_list.vehicle_state' => 'GdproList\Factory\VehicleStateListFactory',
             'gdpro_list.event_privacy_status' => 'GdproList\Factory\EventPrivacyStatusListFactory',
+            'gdpro_list.user_role' => 'GdproList\Factory\UserRoleListFactory',
         ]
     ],
 
