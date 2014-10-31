@@ -1,19 +1,11 @@
 <?php
-namespace GdproList;
+namespace GdproList\Numeric;
 
-class TaxableHorsePowerList extends AbstractList
+class TaxableHorsePowerList
 {
-    const FOUR_TAXABLE_HORSEPOWER = 4;
-    const FIVE_TAXABLE_HORSEPOWER = 5;
-    const SIX_TAXABLE_HORSEPOWER = 6;
-    const SEVEN_TAXABLE_HORSEPOWER = 7;
+    protected $defaultMinValue = 4;
 
-    protected $list = [
-        self::FOUR_TAXABLE_HORSEPOWER => '4',
-        self::FIVE_TAXABLE_HORSEPOWER => '5',
-        self::SIX_TAXABLE_HORSEPOWER => '6',
-        self::SEVEN_TAXABLE_HORSEPOWER => '7',
-    ];
+    protected $defaultMaxValue = 12;
 
     protected $suffix = 'taxable HP';
 
@@ -21,24 +13,28 @@ class TaxableHorsePowerList extends AbstractList
      * Get List
      * @return array
      */
-    public function getList()
+    public function getList($min = null, $max = null)
     {
-        $translatedSuffix = $this->translator->translate('taxable HP', 'GdproList');
-
-        $translatedList = [];
-        foreach($this->list as $key => $value) {
-            $translatedList[$key] = $value.' '.$translatedSuffix;
+        if(!isset($min)) {
+            $min = $this->defaultMinValue;
         }
 
-        return $translatedList;
+        if(!isset($max)) {
+            $max = $this->defaultMaxValue;
+        }
+
+        $translatedSuffix = $this->translator->translate('taxable HP', 'GdproList');
+
+        $list = [];
+        for($i = $min; $i <= $max; $i++) {
+            $list[$i] = $i.' '.$translatedSuffix;
+        }
+
+        return $list;
     }
 
     public function getElementById($id)
     {
-        if(!isset($this->list[$id])) {
-            return null;
-        }
-
         $element = $this->list[$id];
         $translatedSuffix = $this->translator->translate('taxable HP', 'GdproList');
 

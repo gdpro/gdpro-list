@@ -4,15 +4,16 @@ namespace GdproList;
 /**
  * Class AccountTypeList
  * @package GdproList
- * @deprecated
  */
-class AccountTypeList extends AbstractList
+class UserRoleList extends AbstractList
 {
-    const ADMINISTRATOR = 1;
-    const PROFESSIONAL = 2;
-    const INDIVIDUAL = 3;
+    const GUEST = 1;
+    const ADMINISTRATOR = 2;
+    const PROFESSIONAL = 3;
+    const INDIVIDUAL = 4;
 
     protected $list = [
+        self::GUEST => 'Guest',
         self::ADMINISTRATOR => 'Administrator',
         self::PROFESSIONAL => 'Professional',
         self::INDIVIDUAL => 'Individual'
