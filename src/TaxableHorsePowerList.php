@@ -1,5 +1,5 @@
 <?php
-namespace GdproList\Numeric;
+namespace GdproList;
 
 class TaxableHorsePowerList
 {
@@ -10,7 +10,8 @@ class TaxableHorsePowerList
     protected $suffix = 'taxable HP';
 
     /**
-     * Get List
+     * @param null $min
+     * @param null $max
      * @return array
      */
     public function getList($min = null, $max = null)
