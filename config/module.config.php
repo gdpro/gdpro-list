@@ -16,6 +16,7 @@ return [
 
         'factories' => [
             'gdpro_list.account_type' => 'GdproList\Factory\AccountTypeListFactory',
+            'gdpro_list.ad_status' => 'GdproList\Factory\AdStatusListFactory',
             'gdpro_list.advertisement_status' => 'GdproList\Factory\AdvertisementStatusListFactory',
             'gdpro_list.gender' => 'GdproList\Factory\GenderListFactory',
             'gdpro_list.honorific' => 'GdproList\Factory\HonorificListFactory',
