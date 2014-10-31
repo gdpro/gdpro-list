@@ -1,7 +1,7 @@
 <?php
 namespace GdproList;
 
-class TaxableHorsePowerList
+class TaxableHorsePowerList extends AbstractList
 {
     protected $defaultMinValue = 4;
 
