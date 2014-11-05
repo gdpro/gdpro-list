@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-08 04:35+0100\n"
-"PO-Revision-Date: 2014-10-06 20:44+0100\n"
+"PO-Revision-Date: 2014-11-05 21:35+0100\n"
 "Last-Translator: Gary Gitton <info@gary.pro>\n"
 "Language-Team: Gdpro <info@gary.pro>\n"
 "Language: fr_FR\n"
@@ -26,15 +26,6 @@ msgstr "Publiée"
 
 msgid "Waiting for modification"
 msgstr "En attente de modification"
-
-msgid "Administrator"
-msgstr "Administrateur"
-
-msgid "Professional"
-msgstr "Professionnel"
-
-msgid "Individual"
-msgstr "Particulier"
 
 msgid "Mr"
 msgstr "M."
@@ -120,12 +111,6 @@ msgstr "Invité"
 msgid "Admin"
 msgstr "Admin"
 
-msgid "Individual"
-msgstr "Particulier"
-
-msgid "Professional"
-msgstr "Professionnel"
-
 msgid "Not paid"
 msgstr "Non payé"
 
@@ -137,3 +122,12 @@ msgstr "En attente de l'accompte"
 
 msgid "Deposit paid"
 msgstr "Accompte payé"
+
+msgid "Administrator"
+msgstr "Administrateur"
+
+msgid "Professional"
+msgstr "Professionnel"
+
+msgid "Individual"
+msgstr "Particulier"
