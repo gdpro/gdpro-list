@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-08 04:35+0100\n"
-"PO-Revision-Date: 2014-10-06 20:44+0100\n"
+"PO-Revision-Date: 2014-11-10 18:16+0100\n"
 "Last-Translator: Gary Gitton <info@gary.pro>\n"
 "Language-Team: Gdpro <info@gary.pro>\n"
 "Language: fr_FR\n"
@@ -32,9 +32,6 @@ msgstr "Administrateur"
 
 msgid "Professional"
 msgstr "Professionnel"
-
-msgid "Individual"
-msgstr "Particulier"
 
 msgid "Mr"
 msgstr "M."
@@ -123,9 +120,6 @@ msgstr "Admin"
 msgid "Individual"
 msgstr "Particulier"
 
-msgid "Professional"
-msgstr "Professionnel"
-
 msgid "Not paid"
 msgstr "Non payé"
 
@@ -137,3 +131,36 @@ msgstr "En attente de l'accompte"
 
 msgid "Deposit paid"
 msgstr "Accompte payé"
+
+msgid "Moderate"
+msgstr "Modéré"
+
+msgid "Closed"
+msgstr "Fermé"
+
+msgid "Completed"
+msgstr "Terminé"
+
+msgid "Canceled reversal"
+msgstr "Remboursement Annulée"
+
+msgid "Denied"
+msgstr "Refusé"
+
+msgid "Expired"
+msgstr "Expiré"
+
+msgid "Failed"
+msgstr "Echoué"
+
+msgid "Pending"
+msgstr "En attente"
+
+msgid "Refunded"
+msgstr "Remboursé"
+
+msgid "Reversed"
+msgstr "Inversé"
+
+msgid "Voided"
+msgstr "Annulé"

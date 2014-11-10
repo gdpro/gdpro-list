@@ -25,6 +25,8 @@ return [
             'gdpro_list.vehicle_state' => 'GdproList\Factory\VehicleStateListFactory',
             'gdpro_list.event_privacy_status' => 'GdproList\Factory\EventPrivacyStatusListFactory',
             'gdpro_list.user_role' => 'GdproList\Factory\UserRoleListFactory',
+            'gdpro_list.payment_status' => 'GdproList\Factory\PaymentStatusListFactory',
+
         ]
     ],
 
