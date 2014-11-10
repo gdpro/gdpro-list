@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-08 04:35+0100\n"
-"PO-Revision-Date: 2014-11-10 18:16+0100\n"
+"PO-Revision-Date: 2014-11-10 18:45+0100\n"
 "Last-Translator: Gary Gitton <info@gary.pro>\n"
 "Language-Team: Gdpro <info@gary.pro>\n"
 "Language: fr_FR\n"
@@ -29,9 +29,6 @@ msgstr "En attente de modification"
 
 msgid "Administrator"
 msgstr "Administrateur"
-
-msgid "Professional"
-msgstr "Professionnel"
 
 msgid "Mr"
 msgstr "M."
@@ -164,3 +161,9 @@ msgstr "Inversé"
 
 msgid "Voided"
 msgstr "Annulé"
+
+msgid "Professional"
+msgstr "Professionnel"
+
+msgid "Customer"
+msgstr "Client"
