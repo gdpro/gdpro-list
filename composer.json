@@ -1,0 +1,32 @@
+{
+    "name": "gdpro/gdpro-list",
+    "description": "Gdpro List of object",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "gdpro"
+    ],
+    "authors":[
+        {
+            "name":"Gary Gitton",
+            "email": "info@gary.pro",
+            "homepage":"http://www.gary.pro/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.8",
+        "zendframework/zendframework": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "GdproList\\": "src/",
+            "GdproListTest\\": "test/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    }
+}

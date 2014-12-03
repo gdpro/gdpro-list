@@ -20,7 +20,7 @@ class Module
     }
 
     /**
-     * @return mixed
+     * @return array
      */
     public function getConfig()
     {
