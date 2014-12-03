@@ -1,20 +1,12 @@
 <?php
 namespace GdproList;
 
-use Zend\Mvc\ModuleRouteListener;
-use Zend\Mvc\MvcEvent;
-
+/**
+ * Class Module
+ * @package GdproList
+ */
 class Module
 {
-    public function onBootstrap(MvcEvent $e)
-    {
-        if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
-            $translator = $e->getApplication()->getServiceManager()->get('MvcTranslator');
-            $translator->setLocale(\Locale::acceptFromHttp($_SERVER['HTTP_ACCEPT_LANGUAGE']));
-            //            ->setFallbackLocale('fr_FR');
-        }
-    }
-
     public function getConfig()
     {
         return include __DIR__ . '/config/module.config.php';
