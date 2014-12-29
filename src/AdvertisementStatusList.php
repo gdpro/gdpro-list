@@ -1,6 +1,11 @@
 <?php
 namespace GdproList;
 
+/**
+ * Class AdvertisementStatusList
+ * @deprecated
+ * @package GdproList
+ */
 class AdvertisementStatusList extends AbstractList
 {
     const CREATED = 1;
