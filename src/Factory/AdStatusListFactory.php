@@ -4,11 +4,11 @@ namespace GdproList\Factory;
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 
-class AdvertisementStatusListFactory implements FactoryInterface
+class AdStatusListFactory implements FactoryInterface
 {
     public function createService(ServiceLocatorInterface $services)
     {
-        return new \GdproList\AdvertisementStatusList(
+        return new \GdproList\AdStatusList(
             $services->get('MvcTranslator')
         );
     }
