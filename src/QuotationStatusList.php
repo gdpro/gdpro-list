@@ -5,7 +5,7 @@ class QuotationStatusList extends AbstractList
 {
     const CREATED = 1;
     const WAITING_FOR_MODERATION = 2;
-    const MODERATE = 3;
+    const MODERATED = 3;
     const WAITING_FOR_MODIFICATION = 4;
     const SENT = 5;
     const ACCEPTED = 6;
@@ -14,7 +14,7 @@ class QuotationStatusList extends AbstractList
     protected $list = [
         self::CREATED => 'Created',
         self::WAITING_FOR_MODERATION => 'Waiting for moderation',
-        self::MODERATE => 'Moderate',
+        self::MODERATED => 'Moderated',
         self::WAITING_FOR_MODIFICATION => 'Waiting for modification',
         self::SENT => 'Sent',
         self::ACCEPTED => 'Accepted',
