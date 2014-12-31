@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-08 04:35+0100\n"
-"PO-Revision-Date: 2014-11-10 18:45+0100\n"
+"PO-Revision-Date: 2014-12-31 04:34+0100\n"
 "Last-Translator: Gary Gitton <info@gary.pro>\n"
 "Language-Team: Gdpro <info@gary.pro>\n"
 "Language: fr_FR\n"
@@ -130,6 +130,9 @@ msgid "Deposit paid"
 msgstr "Accompte payé"
 
 msgid "Moderate"
+msgstr "Modérer"
+
+msgid "Moderated"
 msgstr "Modéré"
 
 msgid "Closed"
@@ -167,4 +170,3 @@ msgstr "Professionnel"
 
 msgid "Customer"
 msgstr "Client"
-
