@@ -11,7 +11,6 @@ class WorkStatusList extends AbstractList
     const CANCELLED = 6;
     const DEFERRED = 7;
 
-
     protected $list = [
         self::NOT_STARTED => 'Not started',
         self::STARTED => 'Started',
