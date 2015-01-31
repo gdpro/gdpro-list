@@ -24,11 +24,15 @@ class TaxableHorsePowerList extends AbstractList
             $max = $this->defaultMaxValue;
         }
 
-        $translatedSuffix = $this->translator->translate('taxable HP', 'GdproList');
+        $translatedSuffix = $this->translator->translate('Taxable HP', 'GdproList');
 
         $list = [];
         for($i = $min; $i <= $max; $i++) {
             $list[$i] = $i.' '.$translatedSuffix;
+        }
+
+        if($min <= 1 && $max >= 1) {
+            $list[1] = $this->translator->translate('1 taxable HP', 'GdproList');
         }
 
         return $list;
@@ -37,9 +41,11 @@ class TaxableHorsePowerList extends AbstractList
     public function getElementById($id)
     {
         $element = $this->list[$id];
-        $translatedSuffix = $this->translator->translate('taxable HP', 'GdproList');
+        $element .= ' '.$this->translator->translate('Taxable HP', 'GdproList');
 
-        $element .= ' '.$translatedSuffix;
+        if($id == 1) {
+            $element = $this->translator->translate('1 taxable HP', 'GdproList');
+        }
 
         return $element;
     }
