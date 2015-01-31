@@ -10,50 +10,32 @@ class QuotationStatusList extends AbstractList
     const CREATED = 1;
 
     /**
-     * The admin check the quotation and validated it to be visible to others
-     * user
-     */
-    const VALIDATED = 8;
-
-    /**
      * The admin check the quotation and moderate it. The quotation can't be
      * visible to other user
      */
-    const MODERATED = 3;
+    const MODERATED = 2;
+
+    /**
+     * The admin check the quotation and validated it to be visible to others
+     * user
+     */
+    const VALIDATED = 3;
 
     /**
      * The individual accept the quotation.
      */
-    const ACCEPTED = 6;
+    const ACCEPTED = 4;
 
     /**
      * The individual reject the quotation.
      */
-    const REJECTED = 7;
-
-    /**
-     * @deprecated
-     */
-    const WAITING_FOR_MODERATION = 2;
-
-    /**
-     * @deprecated
-     */
-    const WAITING_FOR_MODIFICATION = 4;
-
-    /**
-     * @deprecated
-     */
-    const SENT = 5;
+    const REJECTED = 5;
 
     protected $list = [
         self::CREATED => 'Created',
-        self::WAITING_FOR_MODERATION => 'Waiting for moderation',
         self::MODERATED => 'Moderated',
-        self::WAITING_FOR_MODIFICATION => 'Waiting for modification',
-        self::SENT => 'Sent',
+        self::VALIDATED => 'Validated',
         self::ACCEPTED => 'Accepted',
         self::REJECTED => 'Rejected',
-        self::VALIDATED => 'Validated'
     ];
 }
