@@ -1,5 +1,28 @@
 <?php
-namespace GdproList;
+use Gdpro\Listing\AccountTypeListing;
+use Gdpro\Listing\AdStatusListing;
+use Gdpro\Listing\GenderListing;
+use Gdpro\Listing\HonorificListing;
+use Gdpro\Listing\QuotationStatusListing;
+use Gdpro\Listing\TaxableHorsePowerListing;
+use Gdpro\Listing\VehicleStateListing;
+use Gdpro\Listing\EventPrivacyStatusListing;
+use Gdpro\Listing\UserRoleListing;
+use Gdpro\Listing\PaymentStatusListing;
+use Gdpro\Listing\MonthListing;
+use Gdpro\Listing\WorkStatusListing;
+use Gdpro\Factory\Listing\AccountTypeListingFactory;
+use Gdpro\Factory\Listing\AdStatusListingFactory;
+use Gdpro\Factory\Listing\GenderListingFactory;
+use Gdpro\Factory\Listing\HonorificListingFactory;
+use Gdpro\Factory\Listing\QuotationStatusListingFactory;
+use Gdpro\Factory\Listing\TaxableHorsePowerListingFactory;
+use Gdpro\Factory\Listing\VehicleStateListingFactory;
+use Gdpro\Factory\Listing\EventPrivacyStatusListingFactory;
+use Gdpro\Factory\Listing\UserRoleListingFactory;
+use Gdpro\Factory\Listing\PaymentStatusListingFactory;
+use Gdpro\Factory\Listing\MonthListingFactory;
+use Gdpro\Factory\Listing\WorkStatusListingFactory;
 
 return [
     'service_manager' => [
@@ -25,7 +48,7 @@ return [
             'gdpro_list.user_role'              => 'GdproList\Factory\UserRoleListFactory',
             'gdpro_list.payment_status'         => 'GdproList\Factory\PaymentStatusListFactory',
             'gdpro_list.month'                  => 'GdproList\Factory\MonthListFactory',
-            'gdpro_list.work_status'            => 'GdproList\Factory\WorkStatusListFactory',
+            'gdpro_list.work_status'            => 'GdproList\Factory\WorkStatusListFactory'
         ]
     ],
 
