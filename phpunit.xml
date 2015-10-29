@@ -1,6 +1,6 @@
 <phpunit bootstrap="./test/Bootstrap.php" colors="true">
     <testsuites>
-        <testsuite name="GdproList Test Suite">
+        <testsuite name="Gdpro Listing Test Suite">
             <directory>./test</directory>
         </testsuite>
     </testsuites>
