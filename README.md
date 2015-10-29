@@ -1,13 +1,6 @@
 Gdpro Listing
 =============
 
-Installation
-------------
-
-## Gdpro List
-
-
-
 ### Introduction
 
 Gdpro List is a listing collection  of different kind of object.
