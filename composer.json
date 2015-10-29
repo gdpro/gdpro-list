@@ -1,27 +1,44 @@
 {
-    "name": "gdpro/gdpro-list",
-    "description": "Gdpro List of object",
+    "name": "gdpro/gdpro-listing",
+    "description": "Collection of listing object",
     "license": "BSD-3-Clause",
     "keywords": [
-        "gdpro"
+        "gdpro",
+        "listing"
     ],
     "authors":[
         {
             "name":"Gary Gitton",
             "email": "info@gary.pro",
-            "homepage":"http://www.gary.pro/"
+            "homepage":"http://www.gary.pro/",
+            "role": "Back-end Developer"
         }
     ],
     "require": {
-        "php": ">=5.5.8"
+        "php": ">=5.5.8",
+        "gdpro/gdpro-base": "~1.0.0",
+        "zendframework/zend-config": "~2.5.0",
+        "zendframework/zend-debug": "~2.5.0",
+        "zendframework/zend-eventmanager": "~2.5.0",
+        "zendframework/zend-loader": "~2.5.0",
+        "zendframework/zend-modulemanager": "~2.5.0",
+        "zendframework/zend-mvc": "~2.5.0",
+        "zendframework/zend-navigation": "~2.5.0",
+        "zendframework/zend-serializer": "~2.5.0",
+        "zendframework/zend-servicemanager": "~2.5.0",
+        "zendframework/zend-session": "~2.5.0",
+        "zendframework/zend-stdlib": "~2.5.0",
+        "zendframework/zend-test": "~2.5.0",
+        "zendframework/zend-uri": "~2.5.0",
+        "zendframework/zend-view": "~2.5.0"
     },
-    "suggest": {
-        "phpunit/phpunit": "Allow unit testing"
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
     },
     "autoload": {
         "psr-4": {
-            "GdproList\\": "src/",
-            "GdproListTest\\": "test/"
+            "Gdpro\\Listing\\": "src/",
+            "Gdpro\\ListingTest\\": "test/"
         }
     }
 }
