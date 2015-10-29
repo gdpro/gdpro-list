@@ -1,21 +1,16 @@
-<<<<<<< HEAD
-Gdpro Acl
-=========
-
-
-Library which provide a simple ACL system via the configuration file.
-
+Gdpro Listing
+=============
 
 Installation
 ------------
-=======
+
 ## Gdpro List
 
 
 
 ### Introduction
 
-Gdpro List is a collection of list of different kind of object.
+Gdpro List is a listing collection  of different kind of object.
 
 
 ### Changelog
@@ -33,7 +28,7 @@ Please see the [composer.json](composer.json) file.
 Run the following `composer` command:
 
 ```console
-$ composer require "gdpro/gdpro-list:~1.0"
+$ composer require "gdpro/gdpro-listing:~1.1.0"
 ```
 
 Alternately, manually add the following to your `composer.json`, in
@@ -41,7 +36,7 @@ the `require` section:
 
 ```javascript
 "require": {
-    "gdpro/gdpro-list": "~1.0"
+    "gdpro/gdpro-listing": "~1.1.0"
 }
 ```
 
@@ -55,9 +50,8 @@ return array(
     /* ... */
     'modules' => array(
         /* ... */
-        'GdproList',
+        'Gdpro\\Listing',
     ),
     /* ... */
 );
 ```
->>>>>>> e566ee1b2af6244be6f79657ff203b14da18658c
