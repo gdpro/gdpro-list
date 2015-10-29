@@ -1,28 +1,12 @@
 <?php
-<<<<<<< HEAD
-namespace GdproAcl;
-
-use Zend\Mvc\ModuleRouteListener;
-use Zend\Mvc\MvcEvent;
-
-class Module
-{
-    public function onBootstrap(MvcEvent $e)
-    {
-        $eventManager        = $e->getApplication()->getEventManager();
-        $moduleRouteListener = new ModuleRouteListener();
-        $moduleRouteListener->attach($eventManager);
-    }
-
-=======
-namespace GdproList;
+namespace Gdpro\Listing;
 
 use Zend\Mvc\MvcEvent;
 use Zend\Validator\AbstractValidator;
 
 /**
  * Class Module
- * @package GdproList
+ * @package Gdpro\Listing
  */
 class Module
 {
@@ -38,22 +22,11 @@ class Module
     /**
      * @return array
      */
->>>>>>> e566ee1b2af6244be6f79657ff203b14da18658c
     public function getConfig()
     {
         return include __DIR__ . '/config/module.config.php';
     }
 
-<<<<<<< HEAD
-    public function getAutoloaderConfig()
-    {
-        return array(
-            'Zend\Loader\StandardAutoloader' => array(
-                'namespaces' => array(
-                    __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
-                ),
-            ),
-=======
     /**
      * @return array
      */
@@ -65,7 +38,6 @@ class Module
                     __NAMESPACE__ => __DIR__ . '/src/'
                 ]
             ]
->>>>>>> e566ee1b2af6244be6f79657ff203b14da18658c
         );
     }
 }

@@ -1,37 +1,25 @@
 <?php
-use Gdpro\Listing\AccountTypeListing;
-use Gdpro\Listing\AdStatusListing;
-use Gdpro\Listing\GenderListing;
-use Gdpro\Listing\HonorificListing;
-use Gdpro\Listing\QuotationStatusListing;
-use Gdpro\Listing\TaxableHorsePowerListing;
-use Gdpro\Listing\VehicleStateListing;
-use Gdpro\Listing\EventPrivacyStatusListing;
-use Gdpro\Listing\UserRoleListing;
-use Gdpro\Listing\PaymentStatusListing;
-use Gdpro\Listing\MonthListing;
-use Gdpro\Listing\WorkStatusListing;
-use Gdpro\Factory\Listing\AccountTypeListingFactory;
-use Gdpro\Factory\Listing\AdStatusListingFactory;
-use Gdpro\Factory\Listing\GenderListingFactory;
-use Gdpro\Factory\Listing\HonorificListingFactory;
-use Gdpro\Factory\Listing\QuotationStatusListingFactory;
-use Gdpro\Factory\Listing\TaxableHorsePowerListingFactory;
-use Gdpro\Factory\Listing\VehicleStateListingFactory;
-use Gdpro\Factory\Listing\EventPrivacyStatusListingFactory;
-use Gdpro\Factory\Listing\UserRoleListingFactory;
-use Gdpro\Factory\Listing\PaymentStatusListingFactory;
-use Gdpro\Factory\Listing\MonthListingFactory;
-use Gdpro\Factory\Listing\WorkStatusListingFactory;
+namespace Gdpro\Listing;
+
+use Gdpro\Listing\Factory\AdStatusListingFactory;
+use Gdpro\Listing\Factory\GenderListingFactory;
+use Gdpro\Listing\Factory\HonorificListingFactory;
+use Gdpro\Listing\Factory\QuotationStatusListingFactory;
+use Gdpro\Listing\Factory\TaxableHorsePowerListingFactory;
+use Gdpro\Listing\Factory\VehicleStateListingFactory;
+use Gdpro\Listing\Factory\EventPrivacyStatusListingFactory;
+use Gdpro\Listing\Factory\UserRoleListingFactory;
+use Gdpro\Listing\Factory\PaymentStatusListingFactory;
+use Gdpro\Listing\Factory\MonthListingFactory;
+use Gdpro\Listing\Factory\WorkStatusListingFactory;
 
 return [
     'service_manager' => [
         'factories' => [
-            AccountTypeListing::class           => AccountTypeListingFactory::class,
             AdStatusListing::class              => AdStatusListingFactory::class,
             GenderListing::class                => GenderListingFactory::class,
             HonorificListing::class             => HonorificListingFactory::class,
-            QuotationStatusListing::class       => QuotationStatusListing::class,
+            QuotationStatusListing::class       => QuotationStatusListingFactory::class,
             TaxableHorsePowerListing::class     => TaxableHorsePowerListingFactory::class,
             VehicleStateListing::class          => VehicleStateListingFactory::class,
             EventPrivacyStatusListing::class    => EventPrivacyStatusListingFactory::class,
@@ -41,7 +29,6 @@ return [
             WorkStatusListing::class            => WorkStatusListingFactory::class,
         ]
     ],
-
     'translator' => [
         'locale' => 'fr_FR',
         'translation_file_patterns' => [
