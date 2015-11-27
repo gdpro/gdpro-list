@@ -1,26 +1,51 @@
 {
     "name": "gdpro/gdpro-list",
     "description": "Gdpro List of object",
+    "homepage": "https://github.com/gdpro/gdpro-listing/",
     "license": "BSD-3-Clause",
     "keywords": [
-        "gdpro"
+        "gdpro",
+        "Zend Framework 2",
+        "Listing"
     ],
     "authors":[
         {
             "name":"Gary Gitton",
             "email": "info@gary.pro",
-            "homepage":"http://www.gary.pro/"
+            "homepage": "http://www.gary.pro/",
+            "role": "Back-End Developer"
         }
     ],
     "require": {
-        "php": ">=5.5.8"
-    },
-    "suggest": {
-        "phpunit/phpunit": "Allow unit testing"
+        "php": ">=5.5.8",
+        "zendframework/zend-cache": "~2.5.0",
+        "zendframework/zend-config": "~2.5.0",
+        "zendframework/zend-eventmanager": "~2.5.0",
+        "zendframework/zend-i18n": "~2.5.0",
+        "zendframework/zend-i18n-resources": "~2.5.0",
+        "zendframework/zend-loader": "~2.5.0",
+        "zendframework/zend-log": "~2.5.0",
+        "zendframework/zend-modulemanager": "~2.5.0",
+        "zendframework/zend-mvc": "~2.5.0",
+        "zendframework/zend-paginator": "~2.5.0",
+        "zendframework/zend-serializer": "~2.5.0",
+        "zendframework/zend-servicemanager": "~2.5.0",
+        "zendframework/zend-stdlib": "~2.5.0"
     },
     "autoload": {
         "psr-4": {
-            "GdproList\\": "src/",
+            "GdproList\\": "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
             "GdproListTest\\": "test/"
         }
     }
